@@ -17,3 +17,11 @@ function Concatenate_Example () {
     
     document.getElementById("Concatenate").innerHTML = color;
 }
+
+function My_Own_Function () {
+    
+    var Mouse_Over_Text = "You changed the color!".fontcolor("gold"); 
+
+    document.getElementById("Another_Function_Example").innerHTML = Mouse_Over_Text;
+
+}
